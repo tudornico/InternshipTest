@@ -10,14 +10,16 @@ namespace SantaClauseConsoleApp
         static void Main(string[] args)
         {
 
-
+            
             Question1(); //works
             Question2(); //works
             Question3(); //works
             Question4(); //works
             Question5(); //works
             Question6(); //works
-
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("Each Question Method should be run individually by commenting the other ones in Program.cs");
             // little Ui form for this project just for fun uncomment both lines to try it out
             //UI myUI = new UI();
             //myUI.Innit();
@@ -32,7 +34,7 @@ namespace SantaClauseConsoleApp
 
         
 
-        DateTime date2 = new DateTime(2001, 8, 05);
+            DateTime date2 = new DateTime(2001, 8, 05);
             Child child2 = new Child("Calin Pop", date2, BehaviorEnum.Bad, "Decembrie 21","Cluj Napoca");
 
             DateTime date3 = new DateTime(1997, 03, 30);
@@ -81,7 +83,7 @@ namespace SantaClauseConsoleApp
             Child child2 = new Child("Dorel Paul", date2, BehaviorEnum.Bad, "Mihai Eminescu 25","Baia Mare");
 
             DateTime date3 = new DateTime(1997, 03, 30);
-            Child child3 = new Child("Andrei Nicolaescu", date3, BehaviorEnum.Good, "Qualle","Vienna");
+            Child child3 = new Child("Andrei Mihai", date3, BehaviorEnum.Good, "Qualle","Vienna");
 
             //setting up presents
             Item present1 = new Item("Car");
@@ -126,7 +128,7 @@ namespace SantaClauseConsoleApp
             
             //creating the children
             DateTime date1 = new DateTime(2001, 11, 06);
-            Child child1 = new Child("Tudor", date1, BehaviorEnum.Good, "Crisan 16","Baia Mare");
+            Child child1 = new Child("Tudor Vasile", date1, BehaviorEnum.Good, "Crisan 16","Baia Mare");
 
             DateTime date2 = new DateTime(2001, 8, 05);
             Child child2 = new Child("Calin Pop", date2, BehaviorEnum.Bad, "Decembrie 21","Cluj Napoca");

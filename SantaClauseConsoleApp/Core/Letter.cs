@@ -69,7 +69,7 @@ namespace SantaClauseConsoleApp
             
             if(!File.Exists(FileName))
                 File.Create(FileName);
-            Console.WriteLine(fileInfo.FullName);
+            //Console.WriteLine(fileInfo.FullName);
             StreamWriter writer = new StreamWriter(FileName);
             StreamReader reader = new StreamReader("letter-template.txt");
             string line;
