@@ -11,14 +11,16 @@ namespace SantaClauseConsoleApp
         {
 
 
-            //Question1(); // works
-            //Question2(); // works
-            //Question3(); //works
-            //Question4(); //works
-            //Question5(); //works
-            //Question6(); //works
-            UI myUI = new UI();
-            myUI.Innit();
+            Question1(); //works
+            Question2(); //works
+            Question3(); //works
+            Question4(); //works
+            Question5(); //works
+            Question6(); //works
+
+            // little Ui form for this project just for fun uncomment both lines to try it out
+            //UI myUI = new UI();
+            //myUI.Innit();
         }
 
         static void Question1()
