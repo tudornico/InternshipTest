@@ -8,11 +8,15 @@ namespace SantaClauseConsoleApp
     public class UI
     {
         public void Innit()
-        {
-            this.SetUpInnit();// getting the files populated
+        {  
+            
             ChildRepository repo = ChildRepository.Instace;
             LetterRepository letterRepository = LetterRepository.Instace;
             Report report = Report.Instance;
+            if(repo.Children.Count == 0)
+            {
+                this.SetUpInnit();
+            }
             Console.WriteLine("Please select from one of these options");
             Console.WriteLine("1 : See All Children");
             Console.WriteLine("2 : See All Children grouped by town");
