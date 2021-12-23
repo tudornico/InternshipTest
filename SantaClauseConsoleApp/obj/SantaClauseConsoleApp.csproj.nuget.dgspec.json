@@ -1,0 +1,88 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Tudor\\RiderProjects\\IntershipProject-master\\SantaClauseConsoleApp\\SantaClauseConsoleApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Tudor\\RiderProjects\\IntershipProject-master\\SantaClauseConsoleApp\\SantaClauseConsoleApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Tudor\\RiderProjects\\IntershipProject-master\\SantaClauseConsoleApp\\SantaClauseConsoleApp.csproj",
+        "projectName": "SantaClauseConsoleApp",
+        "projectPath": "C:\\Users\\Tudor\\RiderProjects\\IntershipProject-master\\SantaClauseConsoleApp\\SantaClauseConsoleApp.csproj",
+        "packagesPath": "C:\\Users\\Tudor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tudor\\RiderProjects\\IntershipProject-master\\SantaClauseConsoleApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Tudor\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Json.Net": {
+              "target": "Package",
+              "version": "[1.0.33, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.12, 5.0.12]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\Tudor\\.dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
