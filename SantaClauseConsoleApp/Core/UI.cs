@@ -141,7 +141,7 @@ namespace SantaClauseConsoleApp
             List<Item> presents3 = new List<Item>();
             
             presents3.Add(present1);
-            presents3.Add(present3);
+            presents3.Add(present2);
             //third letter
             DateTime dateLetter3 = new DateTime(2021, 12, 21);
             Letter letter3 = new Letter(child3, dateLetter3, presents3);

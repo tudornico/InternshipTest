@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tudor\\RiderProjects\\IntershipProject-master\\SantaClauseConsoleApp\\SantaClauseConsoleApp.csproj": {}
+    "C:\\Users\\Tudor\\Source\\Repos\\InternshipTest1\\SantaClauseConsoleApp\\SantaClauseConsoleApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tudor\\RiderProjects\\IntershipProject-master\\SantaClauseConsoleApp\\SantaClauseConsoleApp.csproj": {
+    "C:\\Users\\Tudor\\Source\\Repos\\InternshipTest1\\SantaClauseConsoleApp\\SantaClauseConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tudor\\RiderProjects\\IntershipProject-master\\SantaClauseConsoleApp\\SantaClauseConsoleApp.csproj",
+        "projectUniqueName": "C:\\Users\\Tudor\\Source\\Repos\\InternshipTest1\\SantaClauseConsoleApp\\SantaClauseConsoleApp.csproj",
         "projectName": "SantaClauseConsoleApp",
-        "projectPath": "C:\\Users\\Tudor\\RiderProjects\\IntershipProject-master\\SantaClauseConsoleApp\\SantaClauseConsoleApp.csproj",
+        "projectPath": "C:\\Users\\Tudor\\Source\\Repos\\InternshipTest1\\SantaClauseConsoleApp\\SantaClauseConsoleApp.csproj",
         "packagesPath": "C:\\Users\\Tudor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tudor\\RiderProjects\\IntershipProject-master\\SantaClauseConsoleApp\\obj\\",
+        "outputPath": "C:\\Users\\Tudor\\Source\\Repos\\InternshipTest1\\SantaClauseConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Tudor\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Tudor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -57,30 +59,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.12, 5.0.12]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\Tudor\\.dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }

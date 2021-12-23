@@ -9,14 +9,16 @@ namespace SantaClauseConsoleApp
     {
         static void Main(string[] args)
         {
-            UI myUI = new UI();
-            //myUI.Innit();
+
+
             //Question1(); // works
-            Question2(); // works
+            //Question2(); // works
             //Question3(); //works
-            // Question4(); //works
+            //Question4(); //works
             //Question5(); //works
             //Question6(); //works
+            UI myUI = new UI();
+            myUI.Innit();
         }
 
         static void Question1()
@@ -61,7 +63,7 @@ namespace SantaClauseConsoleApp
             //setting up presents
             List<Item> presents3 = new List<Item>();
             presents3.Add(present1);
-            presents3.Add(present3);
+            presents3.Add(present2);
             //third letter
             Letter letter3 = new Letter(child3, DateTime.Now, presents3);
             child3.Writer();
@@ -109,7 +111,7 @@ namespace SantaClauseConsoleApp
             List<Item> presents3 = new List<Item>();
             
             presents3.Add(present1);
-            presents3.Add(present3);
+            presents3.Add(present2);
             //third letter
             DateTime dateLetter3 = new DateTime(2021, 12, 21);
             Letter letter3 = new Letter(child3, dateLetter3, presents3);

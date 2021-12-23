@@ -1,15 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "OKgm9T1OmAod3yocOiZuAqp0oWy9MH6UJZ9jjoMDqmYezmBhbP6XnmbkhtvozM68X080IJcnlIjmKG4wVqgJeg==",
+  "dgSpecHash": "/aNErbCSMEMvr/7hIcdmncmjYdhnrImSMMQUMoz75dpXvJS0UjWNtHGEPg1cl+pLuwZzIInLPMF6E8g5PMsfig==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Tudor\\RiderProjects\\IntershipProject-master\\SantaClauseConsoleApp\\SantaClauseConsoleApp.csproj",
+  "projectFilePath": "C:\\Users\\Tudor\\Source\\Repos\\InternshipTest1\\SantaClauseConsoleApp\\SantaClauseConsoleApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tudor\\.nuget\\packages\\json.net\\1.0.33\\json.net.1.0.33.nupkg.sha512",
-    "C:\\Users\\Tudor\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
-    "C:\\Users\\Tudor\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\Tudor\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\Tudor\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\Tudor\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+    "C:\\Users\\Tudor\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": []
 }
